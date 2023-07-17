@@ -1,0 +1,87 @@
+body {
+  background-image: url('linedpaper/linedpaper.png');
+  background-size: cover;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+  font-family: courier, monospace, sans-serif;
+}
+
+form {
+  color: #3498db;
+  font-size: 22px;
+}
+
+input[type="text"]{
+  background-color : #f8f8f8;
+  padding: 0.5em;
+  border: 2px solid #898989;
+  border-radius: 2px ;
+  display: flexbox;
+
+}
+input[type="text"]:focus {
+  border: 2px solid #ffffff;
+  outline: dashed #898989;
+}
+label{
+  font-size: 1.5em;
+}
+
+#addNeed, #addHave {
+  background-color : #f8f8f8;
+  color: #3498db;
+  font-size: 0.7em;
+  padding: 0.4em;
+  border: 2px solid #898989;
+  border-radius: 2px ;
+}
+
+#addNeed:hover,#addHave:hover {
+  background-color: #3498db;
+  color: #f8f8f8;
+}
+h1 {
+  color: #438ae7;
+  font-size: 3.5em;
+}
+
+h2 {
+  color: #438ae7;
+  font-size: 2.5em;
+  letter-spacing: -2px;
+  text-align: left;
+}
+.list {
+  color: #555;
+  font-size: 1.5em;
+  padding: 0 !important;
+  width: 100%;
+  border: 1px solid #dedede;
+  display: flexbox;
+}
+.list li {
+  list-style: none;
+  background-color : #f8f8f8;
+  border-bottom: 1px dotted #ccc;
+  text-indent: 1em;
+  height: auto;
+  padding: 0.4em;
+  text-transform: capitalize;
+  color: #3498db;
+}
+li a {
+  float: right;
+  text-decoration: none;
+  color: red;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), /* Webkit-based browsers */
+       (min--moz-device-pixel-ratio: 2),    /* Older Firefox browsers (prior to Firefox 16) */
+       (min-resolution: 2dppx),             /* The standard way */
+       (min-resolution: 192dpi)             /* dppx fallback */
+{
+	body {
+		background-image: url('linedpaper/linedpaper_@2x.png');
+	}
+}
