@@ -1,5 +1,5 @@
 body {
-  background-image: url('linedpaper/linedpaper.png');
+  background-image: url('linedpaper/linedpaper.jpg');
   background-size: cover;
   width: 50%;
   margin: 0 auto;
@@ -76,12 +76,3 @@ li a {
   color: red;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), /* Webkit-based browsers */
-       (min--moz-device-pixel-ratio: 2),    /* Older Firefox browsers (prior to Firefox 16) */
-       (min-resolution: 2dppx),             /* The standard way */
-       (min-resolution: 192dpi)             /* dppx fallback */
-{
-	body {
-		background-image: url('linedpaper/linedpaper_@2x.png');
-	}
-}
