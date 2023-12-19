@@ -7,6 +7,6 @@ every function in Js is well explained via comments.
 ![image](https://github.com/Manal-Lahmidi/js-GroceryList/assets/129679210/bda2dc39-9055-453c-b2ee-3eb7456a7c84)
 
 ![image](https://github.com/Manal-Lahmidi/js-GroceryList/assets/129679210/10069c88-c335-4fe4-a321-6170b5e50867)
-
+[try the app](https://grocery-list-shopping.netlify.app/)
 
  
